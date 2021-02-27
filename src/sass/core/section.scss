@@ -5,9 +5,23 @@
     background-color: #fff;
 
     &_face {
+        padding-top: 15px;
+        padding-bottom: 100px;
+        position: relative;
+        background-color: #000;
         background-image: url("../media/section/face.jpg");
-        background-position: center;
+        background-repeat: no-repeat;
+        background-position: center bottom;
         background-size: cover;
+    }
+
+    &_home {
+        background-color: #1d1d1d;
+    }
+
+    &_footer {
+        padding-bottom: 30px;
+        background-color: #1d1d1d;
     }
 }
 
@@ -31,4 +45,9 @@
 }
 
 @media (max-width: 480px) {
+    .section {
+        &_face {
+            padding-bottom: 50px;
+        }
+    }
 }
