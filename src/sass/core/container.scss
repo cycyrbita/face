@@ -6,3 +6,15 @@
     margin-right: auto;
     margin-left: auto;
 }
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 480px;
+    }
+}

@@ -23,25 +23,14 @@
         padding-bottom: 30px;
         background-color: #1d1d1d;
     }
+
+    &_base {
+        background-color: #1d1d1d;
+    }
 }
 
 .section__title {
-    font-size: 63px;
-    font-weight: 800;
-    line-height: 1;
-    text-transform: uppercase;
-}
-
-@media (max-width: 1310px) {
-    .section__title {
-        font-size: 44px;
-    }
-}
-
-@media (max-width: 768px) {
-    .section__title {
-        font-size: 38px;
-    }
+    font-size: 28px;
 }
 
 @media (max-width: 480px) {
